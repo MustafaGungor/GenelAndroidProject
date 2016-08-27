@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.speakingjoy.genelandroid"
+    >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnaPaket.MainGenel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BluetoothAyar.BlueTooth">
+            <intent-filter>
+                <action android:name="android.intent.action.BLUETOOTH_AYAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Php.PhpMysql">
+            <intent-filter>
+                <action android:name="android.intent.action.PHP_MYSQL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Php.php_mysql_select">
+            <intent-filter>
+                <action android:name="android.intent.action.PHP_MYSQL_SELECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebkitBrowser.Webkit">
+            <intent-filter>
+                <action android:name="android.intent.action.WEBKIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MediaPlayer.Music">
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SairlerSiirler.SairGiris">
+            <intent-filter>
+                <action android:name="android.intent.action.SairGiris" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SairlerSiirler.SairSiir">
+            <intent-filter>
+                <action android:name="android.intent.action.Siir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SairlerSiirler.SairSiirler">
+            <intent-filter>
+                <action android:name="android.intent.action.SairlerSiirler" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fener.Fener">
+            <intent-filter>
+                <action android:name="android.intent.action.Fener" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
+
+

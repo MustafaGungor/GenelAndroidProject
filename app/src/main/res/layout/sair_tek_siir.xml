@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/siirbaslik"
+        android:background="@color/colorTextVaslik"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:id="@+id/siiricerik"
+        android:background="@color/colorTextIcerik"
+        android:layout_weight="0.55"
+        android:layout_below="@+id/siirbaslik"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
